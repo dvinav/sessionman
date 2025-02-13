@@ -1,0 +1,40 @@
+{
+  "name": "@dvinav/sessionman",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "Dvin Avanesian",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dvinav/sessionman"
+  },
+  "scripts": {
+    "build": "node esbuild.mts"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "dependencies": {
+    "@dvinav/mwlogger": "^1.0.2",
+    "cookie": "^1.0.2",
+    "redis": "^4.7.0",
+    "vitest": "^3.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "esbuild": "^0.25.0",
+    "esbuild-plugin-d.ts": "^1.3.1",
+    "typescript": "^5.7.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "mongoose",
+    "winston",
+    "logger",
+    "log",
+    "logging"
+  ]
+}
