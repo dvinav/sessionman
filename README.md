@@ -18,6 +18,8 @@ bun add @dvinav/sessionman
 
 ## Usage
 
+> **⚠️ IMPORTANT:** A "sid" cookie must be set as the session identifier, preferably a UUID. Otherwise, the session manager won't work.
+
 ```javascript
 import SessionManager from '@dvinav/sessionman'
 import login from '@/lib/login'

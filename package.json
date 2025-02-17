@@ -1,6 +1,6 @@
 {
   "name": "@dvinav/sessionman",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "author": "Dvin Avanesian",
@@ -31,10 +31,8 @@
     "dist"
   ],
   "keywords": [
-    "mongoose",
-    "winston",
-    "logger",
-    "log",
-    "logging"
+    "redis",
+    "session",
+    "manager"
   ]
 }
